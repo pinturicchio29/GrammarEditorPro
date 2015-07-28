@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="src/edu/csbsju/socs/util/|src/edu/csbsju/socs/grammar/" kind="src" path="src"/>
+	<classpathentry including="jar/" kind="src" path=""/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="substance.jar"/>
+	<classpathentry kind="lib" path="rsyntaxtextarea-2.0.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

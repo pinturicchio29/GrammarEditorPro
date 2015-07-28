@@ -1,0 +1,43 @@
+<html>
+<body bgcolor=#FFFFFF>
+
+<h1>Istruzioni d'uso</h1>
+<div>
+<p>Ogni riga definita nell’area di testo “Grammatica” rappresenta una regola della grammatica.<br>
+Ogni regola contiene un simbolo sul lato sinistro, seguito da una freccia e da una sequenza di simboli sul lato destro.<br> 
+<blockquote><pre>
+S -&gt; A | B <br>
+A -&gt; a A | <br>
+B -&gt; b B | <br>
+</pre></blockquote>
+Per convenzione sui simboli si sceglie che: i simboli terminali (o atomi) si indicano con lettere minuscole, mentre i simboli non-terminali (o meta-simboli) si indicano con lettere maiuscole. Entrambi sono realizzati tramite sequenze di lettere e/o cifre.<br> 
+Le regole permettono di definire più sequenze di simboli terminali e non sul lato destro, separati da barre verticali. <br>
+È anche possibile scrivere regole diverse con lo stesso simbolo sul lato sinistro.<br>
+Al termine la stringa creata sarà composto dai soli simboli terminali.
+</p>
+</div>
+<div style="width: 750; height: 300px; text-align: center;">
+<br>
+<br>
+<img alt="" src="figura1.PNG" title="Esempio di una grammatica" >
+<br>
+<em>Figura 1. Esempio di una grammatica</em>
+</div>
+
+<p>Nella parte inferiore della finestra (Figura 1) vi sono tre pulsanti:
+<ul>
+<li><b>Genera:</b> compone una frase del linguaggio a partire dalla grammatica corrente; se una regola di tale grammatica è composta da più sequenze, 
+comparirà una finestra (Figura 2) in cui l’ utente potrà  selezionare una della possibili produzioni e visualizzare l'albero delle produzioni scelte fino a quel momento. La frase generata verrà visualizzata nel campo “Stringa”;</li>
+<li><b>Albero:</b> analizza il contenuto del campo “Stringa” sulla base della grammatica corrente e , in un'altra finestra, mostra l’albero sintattico risultante (Figura 3);</li>
+<li><b>Clear: </b> resetta il campo “Stringa";</li>
+</ul>
+</p>
+<div style="width: 750; height: 300px; text-align: center;">
+<br>
+<br>
+<img alt="" src="figura2.png" title="Scelta di una produzione" >
+<br>
+<em>Figura 2. Scelta di una produzione</em>
+</div>
+</body>
+</html>

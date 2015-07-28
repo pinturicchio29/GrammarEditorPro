@@ -1,0 +1,38 @@
+<html>
+<body bgcolor=#FFFFFF>
+
+<h1>Internationalization</h1>
+
+<p>For users from other countries, <em>Grammar Editor</em>'s text can be
+translated into other languages. Doing this requires a minimal
+knowledge of creating JAR files using Java.</p>
+
+<p>The <tt>grammar.jar</tt> archive contains the file
+``<tt>grammar/lang/str_en_US.properties</tt>''.
+This file consists of lines, with an identifier (which you should not
+change) to the left of an equal sign and the corresponding text to the
+right. To translate the program to another language, simply translate
+the text to the right of each equal sign in this file.</p>
+
+<p>After you have translated the text messages,
+place your translated file into the same directory.
+The file should be the same name, except that the ISO two-letter
+codes should stand in for the language code (<tt>en</tt> for English)
+and for the country code (<tt>US</tt> for the United States).
+The next time you start the program,
+it should automatically identify your new locale and place it into the
+Locale submenu of the Options menu.</p>
+
+<p>The documentation, stored as separate HTML files in the
+<tt>grammar/doc</tt> directory, should also be translated.
+The properties file (as described above) allows you to configure the
+file names used by the help system so that it refers to your translated
+files instead.</p>
+
+<p>I welcome any translations of the properties file (and preferably
+the HTML documentation too!), so that I can include it in future
+versions for other users from your country. My e-mail address is
+<tt>cburch@cburch.com</tt>. Thank you!</p>
+
+</body>
+</html>
